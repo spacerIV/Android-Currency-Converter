@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+  
+   <LinearLayout android:id="@+id/currencyLinear1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:background="#C1C1C1">
+
+		<TextView
+		    android:id="@+id/currencyheader1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left"
+		    android:layout_weight="1"
+		    android:background="#478A1D"
+		    android:text="  Source:"
+		    android:textColor="#000000"
+		    android:textStyle="bold" />
+
+		<ProgressBar
+		    android:id="@+id/currencyProgress2"
+		    style="?android:attr/progressBarStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="right"
+		    android:background="#478A1D"
+		    android:paddingRight="1dip"
+		    android:paddingTop="1dip" />
+	
+	</LinearLayout>
+<ListView
+    android:id="@+id/android:list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:cacheColorHint="#00000000"
+    android:drawSelectorOnTop="true"
+    android:background="#FFFFFF"
+    />
+<TextView
+    android:id="@+id/android:empty"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:text="Nothing here yet"/>
+</LinearLayout>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="update_frequency">
+<item>Update Manually Only</item>
+<item>10 Minutes</item>
+<item>30 Minutes</item>
+<item>1 Hour</item>
+<item>2 Hours</item>
+<item>3 Hours</item>
+<item>4 Hours</item>
+<item>6 Hours</item>
+<item>12 Hours</item>
+<item>24 Hours</item>
+</string-array>
+<string-array name="data_source">
+<item>Yahoo!</item>
+</string-array>
+<string-array name="number_of_decimals">
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+</string-array>
+<string-array name="currency_symbols">
+<item></item>
+<item>\u0192</item>
+<item>\u0024</item>
+<item>\u0024</item>
+<item></item>
+<item>\u043b\u0432</item>
+<item></item>
+<item>\u0024</item>
+<item>\u0024\u0062</item>
+<item>\u0052\u0024</item>
+<item>\u0050</item>
+<item>\u0024</item>
+<item>\u0043\u0048\u0046</item>
+<item>\u0024</item>
+<item>\u00A5</item>
+<item>\u0024</item>
+<item>\u20A1</item>
+<item>\u004B\u010D</item>
+<item>\u006B\u0072</item>
+<item>\u0052\u0044\u0024</item>
+<item></item>
+<item>\u00A3</item>
+<item>\u20AC</item>
+<item>\u0024</item>
+<item>\u00A3</item>
+<item>\u0024</item>
+<item>\u004C</item>
+<item>\u006B\u006E</item>
+<item>\u0046\u0074</item>
+<item>\u20AA</item>
+<item>\u20B9</item>
+<item>\u006B\u0072</item>
+<item>\u004A\u0024</item>
+<item></item>
+<item>\u00A5</item>
+<item></item>
+<item>\u20A9</item>
+<item></item>
+<item>\u0024</item>
+<item>\u043B\u432</item>
+<item>\u00A3</item>
+<item></item>
+<item>\u004C\u0074</item>
+<item>\u004C\u0073</item>
+<item></item>
+<item></item>
+<item>\u0434\u0435\u043D</item>
+<item></item>
+<item></item>
+<item>\u0024</item>
+<item>\u0052\u004D</item>
+<item>\u0024</item>
+<item>\u20A6</item>
+<item>\u0043\u0024</item>
+<item>\u006B\u0072</item>
+<item></item>
+<item>\u0024</item>
+<item>\fdfc</item>
+<item>\u0053\u002F\u002E</item>
+<item></item>
+<item>\u0050\u0068\u0070</item>
+<item></item>
+<item>\u007A\u0142</item>
+<item>\u0047\u0073</item>
+<item>\ufdfc</item>
+<item>\u006C\u0065\u0069</item>
+<item>\u0414\u0438\u043D\u002E</item>
+<item>\u0440\u0443\u0431</item>
+<item>\ufdfc</item>
+<item></item>
+<item>\u006B\u0072</item>
+<item>\u0024</item>
+<item></item>
+<item></item>
+<item></item>
+<item>\u0E3F</item>
+<item></item>
+<item>\u0054\u004C</item>
+<item>\u0024</item>
+<item>\u004E\u0054\u0024</item>
+<item></item>
+<item>\u20B4</item>
+<item></item>
+<item>\u0024</item>
+<item>\u0024\u0055</item>
+<item></item>
+<item>\u0042\u0073</item>
+<item>\u20AB</item>
+<item>\ufdfc</item>
+<item>\u0052</item>
+<item></item>
+</string-array>
+<string-array name="currency_codes">
+<item>AED</item>
+<item>ANG</item>
+<item>ARS</item>
+<item>AUD</item>
+<item>BDT</item>
+<item>BGN</item>
+<item>BHD</item>
+<item>BND</item>
+<item>BOB</item>
+<item>BRL</item>
+<item>BWP</item>
+<item>CAD</item>
+<item>CHF</item>
+<item>CLP</item>
+<item>CNY</item>
+<item>COP</item>
+<item>CRC</item>
+<item>CZK</item>
+<item>DKK</item>
+<item>DOP</item>
+<item>DZD</item>
+<item>EGP</item>
+<item>EUR</item>
+<item>FJD</item>
+<item>GBP</item>
+<item>HKD</item>
+<item>HNL</item>
+<item>HRK</item>
+<item>HUF</item>
+<item>ILS</item>
+<item>INR</item>
+<item>ISK</item>
+<item>JMD</item>
+<item>JOD</item>
+<item>JPY</item>
+<item>KES</item>
+<item>KRW</item>
+<item>KWD</item>
+<item>KYD</item>
+<item>KZT</item>
+<item>LBP</item>
+<item>LKR</item>
+<item>LTL</item>
+<item>LVL</item>
+<item>MAD</item>
+<item>MDL</item>
+<item>MKD</item>
+<item>MUR</item>
+<item>MVR</item>
+<item>MXN</item>
+<item>MYR</item>
+<item>NAD</item>
+<item>NGN</item>
+<item>NIO</item>
+<item>NOK</item>
+<item>NPR</item>
+<item>NZD</item>
+<item>OMR</item>
+<item>PEN</item>
+<item>PGK</item>
+<item>PHP</item>
+<item>PKR</item>
+<item>PLN</item>
+<item>PYG</item>
+<item>QAR</item>
+<item>RON</item>
+<item>RSD</item>
+<item>RUB</item>
+<item>SAR</item>
+<item>SCR</item>
+<item>SEK</item>
+<item>SGD</item>
+<item>SKK</item>
+<item>SLL</item>
+<item>SVC</item>
+<item>THB</item>
+<item>TND</item>
+<item>TRY</item>
+<item>TTD</item>
+<item>TWD</item>
+<item>TZS</item>
+<item>UAH</item>
+<item>UGX</item>
+<item>USD</item>
+<item>UYU</item>
+<item>UZS</item>
+<item>VEF</item>
+<item>VND</item>
+<item>YER</item>
+<item>ZAR</item>
+<item>ZMK</item>
+</string-array>
+<array name="code_country_currency">
+<item>AED UAE Dirhams</item>
+<item>ANG NetherlandsAntilles Guilder</item>
+<item>ARS Argentina Pesos</item>
+<item>AUD Australia Dollars</item>
+<item>BDT Bangladesh Taka</item>
+<item>BGN Bulgaria Leva</item>
+<item>BHD Bahrain Dinars</item>
+<item>BND Brunei Darussalam Dollars</item>
+<item>BOB Bolivia Bolivianos</item>
+<item>BRL Brazil Brazil Real</item>
+<item>BWP Botswana Pulas</item>
+<item>CAD Canada Dollars</item>
+<item>CHF Switzerland Francs</item>
+<item>CLP Chile Pesos</item>
+<item>CNY China Yuan Renminbi</item>
+<item>COP Colombia Pesos</item>
+<item>CRC Costa Rica Colones</item>
+<item>CZK Czech Republic Koruny</item>
+<item>DKK Denmark Kroner</item>
+<item>DOP Dominican Republic Pesos</item>
+<item>DZD Algeria Algeria Dinars</item>
+<item>EGP Egypt Pounds</item>
+<item>EUR Euro Members Euro</item>
+<item>FJD Fiji Dollars</item>
+<item>GBP United Kingdom Pounds</item>
+<item>HKD Hong Kong Dollars</item>
+<item>HNL Honduras Lempiras</item>
+<item>HRK Croatia Kuna</item>
+<item>HUF Hungary Forint</item>
+<item>ILS Israel New Shekels</item>
+<item>INR India Rupees</item>
+<item>ISK Iceland Kronur</item>
+<item>JMD Jamaica Dollars</item>
+<item>JOD Jordan Dinars</item>
+<item>JPY Japan Yen</item>
+<item>KES Kenya Shillings</item>
+<item>KRW Korea (South) Won</item>
+<item>KWD Kuwait Dinars</item>
+<item>KYD Cayman Islands Dollars</item>
+<item>KZT Kazakhstan Tenge</item>
+<item>LBP Lebanon Pounds</item>
+<item>LKR Sri Lanka Rupees</item>
+<item>LTL Lithuania Litai</item>
+<item>LVL Latvia Lati</item>
+<item>MAD Morocco Dirhams</item>
+<item>MDL Moldova Lei</item>
+<item>MKD Macedonia Denars</item>
+<item>MUR Mauritius Rupees</item>
+<item>MVR Maldives Rufiyaa</item>
+<item>MXN Mexico Pesos</item>
+<item>MYR Malaysia Ringgits</item>
+<item>NAD Namibia Dollars</item>
+<item>NGN Nigeria Nairas</item>
+<item>NIO Nicaragua Cordobas</item>
+<item>NOK Norway Krone</item>
+<item>NPR Nepal Nepal Rupees</item>
+<item>NZD New Zealand Dollars</item>
+<item>OMR Oman Rials</item>
+<item>PEN Peru Nuevos Soles</item>
+<item>PGK Papua New Guinea Kina</item>
+<item>PHP Philippines Pesos</item>
+<item>PKR Pakistan Rupees</item>
+<item>PLN Poland Zlotych</item>
+<item>PYG Paraguay Guarani</item>
+<item>QAR Qatar Rials</item>
+<item>RON Romania New Lei</item>
+<item>RSD Serbia Dinars</item>
+<item>RUB Russia Rubles</item>
+<item>SAR Saudi Arabia Riyals</item>
+<item>SCR Seychelles Rupees</item>
+<item>SEK Sweden Kronor</item>
+<item>SGD Singapore Dollars</item>
+<item>SKK Slovakia Koruna</item>
+<item>SLL Sierra Leone Leones</item>
+<item>SVC El Salvador Colones</item>
+<item>THB Thailand Baht</item>
+<item>TND Tunisia Dinars</item>
+<item>TRY Turkey New Lira</item>
+<item>TTD Trinidad and Tobago Dollars</item>
+<item>TWD Taiwan New Dollars</item>
+<item>TZS Tanzania Shillings</item>
+<item>UAH Ukraine Hryvnia</item>
+<item>UGX Uganda Shillings</item>
+<item>USD USA Dollars</item>
+<item>UYU Uruguay Pesos</item>
+<item>UZS Uzbekistan Sums</item>
+<item>VEF Venezuela Bolivares Fuertes</item>
+<item>VND Viet Nam Dong</item>
+<item>YER Yemen Rials</item>
+<item>ZAR South Africa Rand</item>
+<item>ZMK Zambia Kwacha</item>
+</array>
+
+</resources>

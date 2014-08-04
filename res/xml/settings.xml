@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+     <ListPreference android:dialogTitle="Select the update frequency"
+                     android:entries="@array/update_frequency" 
+                     android:key="UPDATE_FREQUENCY" 
+                     android:summary="Select the update frequency" 
+                     android:title="Update Frequency" android:defaultValue="3 Hours" android:entryValues="@array/update_frequency"/>
+     <ListPreference android:dialogTitle="Select the data source"
+                     android:entryValues="@array/data_source" 
+                     android:entries="@array/data_source" 
+                     android:key="DATA_SOURCE" android:summary="Choose where to retreive the currency data" android:defaultValue="Yahoo!" android:title="Data Source"/> 
+     <ListPreference android:title="Number of Decimals" 
+                     android:dialogTitle="Number of Decimals" 
+                     android:summary="Select the number of decimals to show" 
+                     android:entryValues="@array/number_of_decimals" 
+                     android:entries="@array/number_of_decimals" 
+                     android:key="NUMBER_OF_DECIMALS" android:defaultValue="4"/>
+     <CheckBoxPreference android:key="SHOW_SYMBOLS" android:title="Show Currency Symbols" android:summary="Show currency symbols" android:defaultValue="true"></CheckBoxPreference><CheckBoxPreference
+                     android:title="Remember Currencies"
+                     android:summary="Remember and restore last used currencies"
+                     android:defaultValue="true" 
+                     android:key="REMEMBER_LAST_USED_CURRENCIES"/>
+     <PreferenceCategory android:orderingFromXml="true" 
+                         android:selectable="false" 
+                         android:shouldDisableView="true" 
+                         android:title="News Tab Defaults">
+             <ListPreference android:shouldDisableView="true" 
+                             android:entryValues="@array/currency_codes" 
+                             android:dialogTitle="News Currency Default" 
+                             android:title="News Currency Default" 
+                             android:entries="@array/code_country_currency" 
+                             android:key="NEWS_CURRENCY_SELECTED_DEFAULT" 
+                             android:summary="Select the default currency for the News Tab" 
+                             android:defaultValue="GBP"/>
+  </PreferenceCategory>
+  <PreferenceCategory android:selectable="false" 
+                      android:title="Converter Tab Defaults" 
+                      android:shouldDisableView="true" 
+                      android:orderingFromXml="true">
+             <ListPreference android:shouldDisableView="true" android:dialogTitle="From Currency Default" android:summary="Select the default From currency for the Converter Tab" android:entries="@array/code_country_currency" android:title="From Currency Default" android:entryValues="@array/currency_codes" android:key="CONVERTER_SELECTED_FROM_CURRENCY_DEFAULT" android:defaultValue="GBP"></ListPreference>
+             <ListPreference android:key="CONVERTER_SELECTED_TO_CURRENCY_DEFAULT" android:entries="@array/code_country_currency" android:title="To Currency Default" android:shouldDisableView="true" android:dialogTitle="To Currency Default" android:summary="Select the default To currency for the Converter Tab" android:entryValues="@array/currency_codes" android:defaultValue="USD"></ListPreference>
+  </PreferenceCategory>
+  
+  
+  
+  
+  
+</PreferenceScreen>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+<TabHost 
+    android:id="@android:id/tabhost"
+    android:paddingTop="3dip"
+    android:layout_above="@+id/adView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+  
+    
+</TabHost> 
+
+<!--  
+old Admob sdk way..
+  <com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentBottom="true"                                                             
+                         android:paddingTop="1dip"            
+                         ads:adUnitId="ca-app-pub-8144429352409245/8545151017"                    
+                         ads:adSize="BANNER"
+                         ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+                         ads:loadAdOnCreate="true"/>
+  -->
+  
+  <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8144429352409245/8545151017"
+        ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+        ads:loadAdOnCreate="true"/>
+                   
+</RelativeLayout>
+<!-- ads:testDevices="TEST_EMULATOR, CBAA5F6E79B990B8FB03CE9727FE0FDF"  -->
+<!-- old adUnitId ads:adUnitId="a150bc95ab1e2f1" -->
+       

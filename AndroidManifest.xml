@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hyperionsoft.currencyconverter"
+    android:installLocation="preferExternal"
+    android:versionCode="9"
+    android:versionName="1.9" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/moneychart"
+        android:label="@string/app_name" >
+
+        <!-- ads from google play services -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="4.3.23" />
+
+        <activity
+            android:name=".CurrencyConverter"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CurrencyActivity" >
+        </activity>
+        <activity android:name=".NewsActivity" >
+        </activity>
+        <activity android:name="ConverterActivity" >
+        </activity>
+        <activity android:name=".RssShowDetails" >
+        </activity>
+        <activity
+            android:name=".SettingsPreferences"
+            android:label="General Settings" />
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    </application>
+
+</manifest>

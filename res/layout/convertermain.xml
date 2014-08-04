@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#FFFFFF">
+	<LinearLayout android:id="@+id/converterLinear1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:background="#C1C1C1">
+
+		<TextView
+		    android:id="@+id/converterheader1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left"
+		    android:layout_weight="1"
+		    android:background="#478A1D"
+		    android:text="  Select a currency pair for conversion"
+		    android:textColor="#000000"
+		    android:textStyle="bold" />
+
+		<ProgressBar
+		    android:id="@+id/converterProgress1"
+		    style="?android:attr/android:progressBarStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:layout_gravity="right"
+		    android:background="#478A1D"
+		    android:maxHeight="20dip"
+		    android:paddingRight="3dip"
+		    android:paddingTop="1dip" >
+
+		</ProgressBar>
+			
+	</LinearLayout>
+
+	<Spinner android:id="@+id/FromSpinner" android:layout_height="wrap_content"
+		android:layout_gravity="left" android:layout_width="wrap_content"
+		android:layout_marginLeft="5dip" android:layout_marginTop="7dip"
+		android:layout_alignParentLeft="true" android:layout_below="@+id/converterLinear1" />
+	<ImageView android:id="@+id/swapImage" android:src="@drawable/swap2"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true" android:layout_marginTop="5dip"
+		android:layout_alignTop="@+id/FromSpinner" />
+	<Spinner android:id="@+id/ToSpinner" android:layout_height="wrap_content"
+		android:layout_gravity="right" android:layout_width="wrap_content"
+		android:layout_marginRight="5dip" android:layout_alignParentRight="true"
+		android:layout_alignTop="@+id/FromSpinner" />
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/FromSpinner"
+		android:id="@+id/relativeLayout1">
+		<ViewFlipper android:id="@+id/flipperText"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:flipInterval="2000" android:layout_marginBottom="3dip">
+			<TextView android:id="@+id/converterText1"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:gravity="center" android:text="Working..."
+				android:textStyle="bold" android:paddingLeft="4dip"
+				android:paddingTop="5dip" android:textColor="@color/red" android:textSize="26dip"/>
+			<TextView android:id="@+id/converterText2"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:gravity="center" android:text=""
+				android:textStyle="bold" android:paddingLeft="4dip"
+				android:paddingTop="5dip" android:textColor="@color/red" android:textSize="26dip"/>
+		</ViewFlipper>
+		<TextView android:text="" 
+		          android:id="@+id/converterDateText" 
+		          android:layout_width="fill_parent" 
+		          android:layout_height="wrap_content"
+		          android:layout_below="@+id/flipperText"
+		          android:gravity="center"/>
+		<TextView android:text="" 
+		          android:id="@+id/converterSourceText" 
+		          android:layout_width="fill_parent" 
+		          android:layout_height="wrap_content"
+		          android:layout_below="@+id/converterDateText"
+		          android:gravity="center"/>
+	</RelativeLayout>
+	<LinearLayout android:id="@+id/converterChartLinear1"
+		          android:layout_width="fill_parent" android:layout_height="wrap_content"
+		          android:orientation="horizontal" android:background="#D6E7F2"
+		          android:layout_below="@+id/relativeLayout1"
+		          android:layout_marginTop="4dip">
+
+		<TextView
+		    android:id="@+id/chartHeader"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left"
+		    android:layout_weight="1"
+		    android:background="#478A1D"
+		    android:text="  Chart"
+		    android:textColor="#000000"
+		    android:textStyle="bold" />
+	       
+	</LinearLayout>
+
+	<FrameLayout android:id="@+id/frameLayout1"
+		android:layout_height="fill_parent" android:layout_width="fill_parent"
+		android:layout_marginTop="8dip" android:layout_below="@+id/converterChartLinear1">
+		 <ViewFlipper android:id="@+id/flipperChart"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:flipInterval="2000"
+                android:layout_gravity="fill">
+		<ImageView android:layout_height="fill_parent" android:src="@drawable/z"
+			android:layout_gravity="center|fill" android:layout_width="fill_parent"
+			android:id="@+id/chartImage1" android:clickable="true"
+			android:scaleType="fitXY"></ImageView>
+		<ImageView android:layout_height="fill_parent" android:src="@drawable/z"
+			android:layout_gravity="center|fill" android:layout_width="fill_parent"
+			android:id="@+id/chartImage2" android:clickable="true"
+			android:scaleType="fitXY"></ImageView>
+			</ViewFlipper>
+		<ProgressBar android:id="@+id/chartProgress2"
+			style='style="?android:attr/android:progressBarStyleSmall"'
+			android:layout_gravity="center" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" />
+	</FrameLayout>
+
+
+
+</RelativeLayout>

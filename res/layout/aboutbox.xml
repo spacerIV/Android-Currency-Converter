@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/about_dialog_root"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:padding="4dp">
+    <LinearLayout 
+               android:id="@+id/linearabout1"
+               android:orientation="horizontal"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:padding="2dp">
+    <ImageView android:id="@+id/abouticon"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="5dp"/>
+    <TextView android:id="@+id/abouttext1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="A simple currency converter for the Android platform."
+              android:textColor="#FFF"/>  
+    </LinearLayout>
+ 
+    <TextView android:id="@+id/abouttext2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text=""
+              android:textColor="#FFF"/>
+    <TextView android:id="@+id/abouttext3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="The accuracy of the exchange rates are not guaranteed. The developer will not be held responsible for any transactions committed due to the information supplied by this application."
+              android:textColor="#FFF"
+              />      
+</LinearLayout>
+

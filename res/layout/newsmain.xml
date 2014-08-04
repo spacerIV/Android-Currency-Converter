@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:id="@+id/relativeLayout1"
+	android:layout_width="wrap_content" android:background="#FFFFFF">
+	<LinearLayout android:id="@+id/newslinear1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:background="#C1C1C1">
+
+		<TextView
+		    android:id="@+id/header1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left"
+		    android:layout_weight="1"
+		    android:background="#478A1D"
+		    android:text="  Select a currency for news"
+		    android:textColor="#000000"
+		    android:textStyle="bold" />
+			
+	</LinearLayout>
+	<Spinner android:layout_width="fill_parent"
+		android:layout_alignParentRight="true" android:layout_height="wrap_content"
+		android:id="@+id/NewsSpinner" android:layout_below="@+id/newslinear1"
+		 />
+	<ListView android:id="@+id/totallythelist"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:dividerHeight="0px" android:divider="#00000000"
+		android:paddingTop="5dip" android:layout_below="@+id/NewsSpinner" />
+
+	<ProgressBar
+	    android:id="@+id/newsProgress"
+	    style="?android:attr/progressBarStyleSmall"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/newslinear1"
+	    android:layout_alignParentRight="true"
+	    android:layout_weight="0.66"
+	    android:background="#478A1D"
+	    android:paddingBottom="1dip"
+	    android:paddingRight="1dip" />
+
+</RelativeLayout>
