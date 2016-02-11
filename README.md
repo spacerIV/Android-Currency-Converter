@@ -1,7 +1,7 @@
 currencyconverter
 =================
 
-Android currency converter. 
+Android currency converter built using Ice Cream Sandwich / Jellybean APIs, most likely out of date now.
 
 https://play.google.com/store/apps/details?id=com.hyperionsoft.currencyconverter
 
