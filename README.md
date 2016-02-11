@@ -6,18 +6,23 @@ Android currency converter.
 https://play.google.com/store/apps/details?id=com.hyperionsoft.currencyconverter
 
 Many positive reviews and downloads:
+-------------------------------------
 ![reviews](https://github.com/vichou/currencyconverter/raw/master/screenshots/reviews.png)
 
 Multiple Converter:
+-------------------------------------
 ![main](https://github.com/vichou/currencyconverter/raw/master/screenshots/main.png)
 
 Charts: 1 day, 1 month, 3 months, 1 year, 3 years, 5 years
+-------------------------------------
 ![chart](https://github.com/vichou/currencyconverter/raw/master/screenshots/chart.png)
 
 Flags:
+-------------------------------------
 ![list](https://github.com/vichou/currencyconverter/raw/master/screenshots/list.png)
 
 RSS news:
+-------------------------------------
 ![news](https://github.com/vichou/currencyconverter/raw/master/screenshots/news.png)
 
 - Real-time currency rates from Google or Yahoo!
