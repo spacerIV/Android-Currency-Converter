@@ -5,6 +5,9 @@ Android currency converter.
 
 https://play.google.com/store/apps/details?id=com.hyperionsoft.currencyconverter
 
+Many positive reviews and downloads:
+![reviews](https://github.com/vichou/currencyconverter/raw/master/screenshots/reviews.png)
+
 Multiple Converter:
 ![main](https://github.com/vichou/currencyconverter/raw/master/screenshots/main.png)
 
