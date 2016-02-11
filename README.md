@@ -25,6 +25,10 @@ RSS news:
 -------------------------------------
 ![news](https://github.com/vichou/currencyconverter/raw/master/screenshots/news.png)
 
+Settings:
+-------------------------------------
+![settings](https://github.com/vichou/currencyconverter/raw/master/screenshots/settings.png)
+
 - Real-time currency rates from Google or Yahoo!
 - Over 90 currencies.
 - Interactive graph of currency pairs, from 1 day to 5 years.
